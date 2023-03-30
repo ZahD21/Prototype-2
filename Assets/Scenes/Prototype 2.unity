@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
+  speed: 20
   xRange: 10
   projectilePrefab: {fileID: 5517489453148703099, guid: b8496e4a6434f407390aa8dc5e5a418b, type: 3}
 --- !u!1 &1590138454
@@ -735,7 +735,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 829996670667047395, guid: 9b2de1485ac8e44c0a8cf4c5e7c4f9d4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.8581133
+      value: 3.62
       objectReference: {fileID: 0}
     - target: {fileID: 829996670667047395, guid: 9b2de1485ac8e44c0a8cf4c5e7c4f9d4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -792,7 +792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4057739527213386625, guid: 90742f1274beb4e7286ed2a8e53569db, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.99
+      value: 2.284
       objectReference: {fileID: 0}
     - target: {fileID: 4057739527213386625, guid: 90742f1274beb4e7286ed2a8e53569db, type: 3}
       propertyPath: m_LocalRotation.w

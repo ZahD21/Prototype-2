@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour
 {
 
     public float horizontalInput;
-    public float speed = 10.0f;
-    public float xRange = 10.0f;
+    public float speed = 20.0f;
+    public float xRange = 30.0f;
 
     public GameObject projectilePrefab;
     // Start is called before the first frame update
@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
         
         if (transform.position.x < -xRange) 
         {
-            //Creates boundaries, if person moves to -10 his position is stuck at the boundary
+            //Creates boundaries, if person moves to -20 his position is stuck at the boundary
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
         if (transform.position.x > xRange)
